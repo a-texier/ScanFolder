@@ -1,0 +1,19 @@
+build/
+dist/
+__pycache__/
+*.pdb
+*.ilk
+*.obj
+*.res
+*.csv
+*.csv.txt
+
+# Executables construits localement : ils sont publies en release, pas dans le depot
+/*.exe
+/SHA256SUMS.txt
+
+# Resultats des tests locaux (chemins et index de la machine de dev)
+test-results/
+
+# Archive d'origine de 7-Zip Extra : seuls les fichiers extraits servent au build
+third_party/7zip/7z2604-extra.7z

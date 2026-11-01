@@ -1,0 +1,31 @@
+#include <windows.h>
+1 ICON "assets\\ScanFolder.ico"
+1 RT_MANIFEST "app.manifest"
+101 RCDATA "third_party\\7zip\\extra\\x64\\7za.exe"
+102 RCDATA "third_party\\7zip\\extra\\License.txt"
+103 RCDATA "third_party\\7zip\\7z2604-src.tar.xz"
+104 RCDATA "assets\\ScanFolder.png"
+1 VERSIONINFO
+FILEVERSION 1,2,0,0
+PRODUCTVERSION 1,2,0,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "040c04b0"
+  BEGIN
+   VALUE "CompanyName", "ScanFolder contributors\0"
+   VALUE "FileDescription", "ScanFolder - Analyse locale d'espace disque\0"
+   VALUE "FileVersion", "1.2.0\0"
+   VALUE "InternalName", "ScanFolder\0"
+   VALUE "OriginalFilename", "ScanFolder.exe\0"
+   VALUE "ProductName", "ScanFolder\0"
+   VALUE "ProductVersion", "1.2.0\0"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x40c, 1200
+ END
+END
